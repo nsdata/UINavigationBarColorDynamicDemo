@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B759F581B0B136200DD84EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B759F571B0B136200DD84EA /* main.m */; };
+		0B759F5B1B0B136200DD84EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B759F5A1B0B136200DD84EA /* AppDelegate.m */; };
+		0B759F5E1B0B136200DD84EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B759F5D1B0B136200DD84EA /* ViewController.m */; };
+		0B759F611B0B136200DD84EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B759F5F1B0B136200DD84EA /* Main.storyboard */; };
+		0B759F631B0B136200DD84EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B759F621B0B136200DD84EA /* Images.xcassets */; };
+		0B759F661B0B136200DD84EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B759F641B0B136200DD84EA /* LaunchScreen.xib */; };
+		0B759F721B0B136200DD84EA /* NavigationBarBgColorTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B759F711B0B136200DD84EA /* NavigationBarBgColorTestTests.m */; };
+		0B759F7D1B0B158B00DD84EA /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B759F7C1B0B158B00DD84EA /* TempViewController.m */; };
+		0B759F801B0B179F00DD84EA /* UINavigationBar+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B759F7F1B0B179F00DD84EA /* UINavigationBar+BackgroundColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B759F6C1B0B136200DD84EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B759F4A1B0B136200DD84EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B759F511B0B136200DD84EA;
+			remoteInfo = NavigationBarBgColorTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B759F521B0B136200DD84EA /* NavigationBarBgColorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarBgColorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B759F561B0B136200DD84EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B759F571B0B136200DD84EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B759F591B0B136200DD84EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B759F5A1B0B136200DD84EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B759F5C1B0B136200DD84EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B759F5D1B0B136200DD84EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B759F601B0B136200DD84EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B759F621B0B136200DD84EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0B759F651B0B136200DD84EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0B759F6B1B0B136200DD84EA /* NavigationBarBgColorTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarBgColorTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B759F701B0B136200DD84EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B759F711B0B136200DD84EA /* NavigationBarBgColorTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarBgColorTestTests.m; sourceTree = "<group>"; };
+		0B759F7B1B0B158B00DD84EA /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		0B759F7C1B0B158B00DD84EA /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		0B759F7E1B0B179F00DD84EA /* UINavigationBar+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackgroundColor.h"; sourceTree = "<group>"; };
+		0B759F7F1B0B179F00DD84EA /* UINavigationBar+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackgroundColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B759F4F1B0B136200DD84EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B759F681B0B136200DD84EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B759F491B0B136200DD84EA = {
+			isa = PBXGroup;
+			children = (
+				0B759F541B0B136200DD84EA /* NavigationBarBgColorTest */,
+				0B759F6E1B0B136200DD84EA /* NavigationBarBgColorTestTests */,
+				0B759F531B0B136200DD84EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B759F531B0B136200DD84EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B759F521B0B136200DD84EA /* NavigationBarBgColorTest.app */,
+				0B759F6B1B0B136200DD84EA /* NavigationBarBgColorTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B759F541B0B136200DD84EA /* NavigationBarBgColorTest */ = {
+			isa = PBXGroup;
+			children = (
+				0B759F7E1B0B179F00DD84EA /* UINavigationBar+BackgroundColor.h */,
+				0B759F7F1B0B179F00DD84EA /* UINavigationBar+BackgroundColor.m */,
+				0B759F591B0B136200DD84EA /* AppDelegate.h */,
+				0B759F5A1B0B136200DD84EA /* AppDelegate.m */,
+				0B759F5C1B0B136200DD84EA /* ViewController.h */,
+				0B759F5D1B0B136200DD84EA /* ViewController.m */,
+				0B759F7B1B0B158B00DD84EA /* TempViewController.h */,
+				0B759F7C1B0B158B00DD84EA /* TempViewController.m */,
+				0B759F5F1B0B136200DD84EA /* Main.storyboard */,
+				0B759F621B0B136200DD84EA /* Images.xcassets */,
+				0B759F641B0B136200DD84EA /* LaunchScreen.xib */,
+				0B759F551B0B136200DD84EA /* Supporting Files */,
+			);
+			path = NavigationBarBgColorTest;
+			sourceTree = "<group>";
+		};
+		0B759F551B0B136200DD84EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B759F561B0B136200DD84EA /* Info.plist */,
+				0B759F571B0B136200DD84EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B759F6E1B0B136200DD84EA /* NavigationBarBgColorTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B759F711B0B136200DD84EA /* NavigationBarBgColorTestTests.m */,
+				0B759F6F1B0B136200DD84EA /* Supporting Files */,
+			);
+			path = NavigationBarBgColorTestTests;
+			sourceTree = "<group>";
+		};
+		0B759F6F1B0B136200DD84EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B759F701B0B136200DD84EA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B759F511B0B136200DD84EA /* NavigationBarBgColorTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B759F751B0B136200DD84EA /* Build configuration list for PBXNativeTarget "NavigationBarBgColorTest" */;
+			buildPhases = (
+				0B759F4E1B0B136200DD84EA /* Sources */,
+				0B759F4F1B0B136200DD84EA /* Frameworks */,
+				0B759F501B0B136200DD84EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationBarBgColorTest;
+			productName = NavigationBarBgColorTest;
+			productReference = 0B759F521B0B136200DD84EA /* NavigationBarBgColorTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B759F6A1B0B136200DD84EA /* NavigationBarBgColorTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B759F781B0B136200DD84EA /* Build configuration list for PBXNativeTarget "NavigationBarBgColorTestTests" */;
+			buildPhases = (
+				0B759F671B0B136200DD84EA /* Sources */,
+				0B759F681B0B136200DD84EA /* Frameworks */,
+				0B759F691B0B136200DD84EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B759F6D1B0B136200DD84EA /* PBXTargetDependency */,
+			);
+			name = NavigationBarBgColorTestTests;
+			productName = NavigationBarBgColorTestTests;
+			productReference = 0B759F6B1B0B136200DD84EA /* NavigationBarBgColorTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B759F4A1B0B136200DD84EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = YangXudong;
+				TargetAttributes = {
+					0B759F511B0B136200DD84EA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					0B759F6A1B0B136200DD84EA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 0B759F511B0B136200DD84EA;
+					};
+				};
+			};
+			buildConfigurationList = 0B759F4D1B0B136200DD84EA /* Build configuration list for PBXProject "NavigationBarBgColorTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B759F491B0B136200DD84EA;
+			productRefGroup = 0B759F531B0B136200DD84EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B759F511B0B136200DD84EA /* NavigationBarBgColorTest */,
+				0B759F6A1B0B136200DD84EA /* NavigationBarBgColorTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B759F501B0B136200DD84EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B759F611B0B136200DD84EA /* Main.storyboard in Resources */,
+				0B759F661B0B136200DD84EA /* LaunchScreen.xib in Resources */,
+				0B759F631B0B136200DD84EA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B759F691B0B136200DD84EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B759F4E1B0B136200DD84EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B759F7D1B0B158B00DD84EA /* TempViewController.m in Sources */,
+				0B759F5E1B0B136200DD84EA /* ViewController.m in Sources */,
+				0B759F5B1B0B136200DD84EA /* AppDelegate.m in Sources */,
+				0B759F801B0B179F00DD84EA /* UINavigationBar+BackgroundColor.m in Sources */,
+				0B759F581B0B136200DD84EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B759F671B0B136200DD84EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B759F721B0B136200DD84EA /* NavigationBarBgColorTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B759F6D1B0B136200DD84EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B759F511B0B136200DD84EA /* NavigationBarBgColorTest */;
+			targetProxy = 0B759F6C1B0B136200DD84EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B759F5F1B0B136200DD84EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B759F601B0B136200DD84EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B759F641B0B136200DD84EA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B759F651B0B136200DD84EA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B759F731B0B136200DD84EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B759F741B0B136200DD84EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B759F761B0B136200DD84EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavigationBarBgColorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B759F771B0B136200DD84EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavigationBarBgColorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B759F791B0B136200DD84EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NavigationBarBgColorTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationBarBgColorTest.app/NavigationBarBgColorTest";
+			};
+			name = Debug;
+		};
+		0B759F7A1B0B136200DD84EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NavigationBarBgColorTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationBarBgColorTest.app/NavigationBarBgColorTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B759F4D1B0B136200DD84EA /* Build configuration list for PBXProject "NavigationBarBgColorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B759F731B0B136200DD84EA /* Debug */,
+				0B759F741B0B136200DD84EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B759F751B0B136200DD84EA /* Build configuration list for PBXNativeTarget "NavigationBarBgColorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B759F761B0B136200DD84EA /* Debug */,
+				0B759F771B0B136200DD84EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B759F781B0B136200DD84EA /* Build configuration list for PBXNativeTarget "NavigationBarBgColorTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B759F791B0B136200DD84EA /* Debug */,
+				0B759F7A1B0B136200DD84EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B759F4A1B0B136200DD84EA /* Project object */;
+}
