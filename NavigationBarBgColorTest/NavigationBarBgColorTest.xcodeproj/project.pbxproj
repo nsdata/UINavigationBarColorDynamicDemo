@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6D46F41B14046C000861B7 /* UIViewController+NavigationBarColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D46F31B14046C000861B7 /* UIViewController+NavigationBarColor.m */; };
 		0B759F581B0B136200DD84EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B759F571B0B136200DD84EA /* main.m */; };
 		0B759F5B1B0B136200DD84EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B759F5A1B0B136200DD84EA /* AppDelegate.m */; };
 		0B759F5E1B0B136200DD84EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B759F5D1B0B136200DD84EA /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B6D46F21B14046C000861B7 /* UIViewController+NavigationBarColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBarColor.h"; sourceTree = "<group>"; };
+		0B6D46F31B14046C000861B7 /* UIViewController+NavigationBarColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBarColor.m"; sourceTree = "<group>"; };
 		0B759F521B0B136200DD84EA /* NavigationBarBgColorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarBgColorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B759F561B0B136200DD84EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B759F571B0B136200DD84EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 			children = (
 				0B759F7E1B0B179F00DD84EA /* UINavigationBar+BackgroundColor.h */,
 				0B759F7F1B0B179F00DD84EA /* UINavigationBar+BackgroundColor.m */,
+				0B6D46F21B14046C000861B7 /* UIViewController+NavigationBarColor.h */,
+				0B6D46F31B14046C000861B7 /* UIViewController+NavigationBarColor.m */,
 				0B759F591B0B136200DD84EA /* AppDelegate.h */,
 				0B759F5A1B0B136200DD84EA /* AppDelegate.m */,
 				0B759F5C1B0B136200DD84EA /* ViewController.h */,
@@ -231,6 +236,7 @@
 			files = (
 				0B759F7D1B0B158B00DD84EA /* TempViewController.m in Sources */,
 				0B759F5E1B0B136200DD84EA /* ViewController.m in Sources */,
+				0B6D46F41B14046C000861B7 /* UIViewController+NavigationBarColor.m in Sources */,
 				0B759F5B1B0B136200DD84EA /* AppDelegate.m in Sources */,
 				0B759F801B0B179F00DD84EA /* UINavigationBar+BackgroundColor.m in Sources */,
 				0B759F581B0B136200DD84EA /* main.m in Sources */,

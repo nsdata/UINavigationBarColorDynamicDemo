@@ -8,16 +8,13 @@
 
 #import "ViewController.h"
 #import "UINavigationBar+BackgroundColor.h"
+#import "UIViewController+NavigationBarColor.h"
 
 @interface ViewController ()<UITableViewDataSource,UIScrollViewDelegate> {
     BOOL canChangeNavigationBarColor;
 }
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-
-@property (nonatomic, strong) UIPanGestureRecognizer *pan;
-
-@property (nonatomic, strong) UINavigationBar *bar;
 
 @end
 
@@ -57,8 +54,8 @@
 }
 
 -(void)viewDidDisappear:(BOOL)animated {
-    [self.pan removeTarget:self action:@selector(action_pan:)];
-    self.pan = nil;
+    //如果不移除target 会在dealloc后继续接收事件 导致崩溃
+    [self action_removeNavigationPanTarget];
 }
 
 - (void)viewDidLoad {
@@ -66,25 +63,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
-    
-    self.pan = (UIPanGestureRecognizer *)self.navigationController.interactivePopGestureRecognizer;
-    
-    [self.pan addTarget:self action:@selector(action_pan:)];
-    
-    self.bar = self.navigationController.navigationBar;
-}
-
-- (void) action_pan:(UIPanGestureRecognizer *)pan {
-    
-    CGFloat pointX = [pan translationInView:self.view].x;
-    
-    CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
-    
-    CGFloat alpha = pointX/screenWidth;
-    
-    NSLog(@"alpha : %lf",alpha);
-    
-    [self.bar action_setSystemBarBackgroundAlpha:alpha];
+    //加上左滑手势的监控 随着左滑改变系统bar的透明度
+    [self action_addNavigationPanTarget];
 }
 
 #pragma mark - 

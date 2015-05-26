@@ -11,7 +11,7 @@
 
 @interface TempViewController ()
 
-@property (nonatomic, strong) UINavigationBar *bar;
+@property (nonatomic, weak) UINavigationBar *bar;
 
 @end
 
